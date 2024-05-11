@@ -1,0 +1,18 @@
+Nombres en orden ascendente:
+dss
+ssssd
+
+Nombres en orden descendente:
+ssssd
+dss
+
+Médicos veterinarios:
+Nombre: sds, Apellido: lsld, Edad: 19, Especialidad: php, Sexo: F
+Nombre: dds, Apellido: wee, Edad: 34, Especialidad: dfd, Sexo: M
+
+Información sobre el IVA:
+Cantidad: 2
+Precio: 2,00
+Total sin IVA: 4,00
+IVA (15%): 0,60
+Total con IVA: 4,60
