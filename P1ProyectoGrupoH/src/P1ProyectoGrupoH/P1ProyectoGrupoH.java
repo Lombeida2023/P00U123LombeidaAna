@@ -8,13 +8,27 @@ public class P1ProyectoGrupoH {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        ///////////Array List
         List<GrupoHMascota> mascotasDisponibles = new ArrayList<>();
         List<GrupoHRefugio> refugios = new ArrayList<>();
         List<GrupoHSeguimiento> seguimientos = new ArrayList<>();
-
+        System.out.println("======================================================================");
+        System.out.println("LISTA  ESTATICA DISPOBLE DE LOS ANIMALES EN ADOPCION                  ");
+        System.out.println("======================================================================");
         mascotasDisponibles.add(new GrupoHMascota("Perro", "Firulais", "Macho", "Labrador", 5));
         mascotasDisponibles.add(new GrupoHMascota("Gato", "Misu", "Hembra", "Siames", 3));
         mascotasDisponibles.add(new GrupoHMascota("Conejo", "Bunny", "Macho", "Angora", 2));
+        mascotasDisponibles.add(new GrupoHMascota("Pájaro", "Piolín", "Macho", "Canario", 1));
+        mascotasDisponibles.add(new GrupoHMascota("Hamster", "Ratatouille", "Hembra", "Roborovski", 1));
+        mascotasDisponibles.add(new GrupoHMascota("Tortuga", "Flash", "Hembra", "Mediterránea", 6));
+        mascotasDisponibles.add(new GrupoHMascota("Pez", "Nemo", "Macho", "Pez Payaso", 1));
+        mascotasDisponibles.add(new GrupoHMascota("Loro", "Coco", "Macho", "Amazónico", 3));
+        mascotasDisponibles.add(new GrupoHMascota("Iguana", "Spike", "Macho", "Iguana Verde", 4));
+        mascotasDisponibles.add(new GrupoHMascota("Caballo", "Spirit", "Macho", "Pura Raza Española", 7));
+        mascotasDisponibles.add(new GrupoHMascota("Hurón", "Slinky", "Hembra", "Hurón Doméstico", 2));
+        mascotasDisponibles.add(new GrupoHMascota("Cuyo", "Milo", "Macho", "Cuyo Abisinio", 1));
+        mascotasDisponibles.add(new GrupoHMascota("Serpiente", "Nagini", "Hembra", "Pitón Bola", 3));
+;
 
         Menu(scanner, mascotasDisponibles, refugios, seguimientos);
     }

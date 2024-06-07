@@ -1,6 +1,12 @@
 package P1ProyectoGrupoH;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 public class GrupoHPlataformaApodcion {
 
@@ -168,7 +174,9 @@ public class GrupoHPlataformaApodcion {
 		System.out.println("EDAD : " + getEdad());
 		System.out.println("CEDULA : " + getCedula());
 		System.out.println("TELEFONO : " + getTelefono());
-
 	}
 
+	
+	
+	
 }

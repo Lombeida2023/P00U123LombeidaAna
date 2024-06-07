@@ -142,6 +142,8 @@ public class GrupoHRefugio {
 	        for (int i = 0; i < cantidadRefugios; i++) {
 	            System.out.println(refugios[i].toString());
 	        }
+	        
+	        Archivos.GenerarJson( refugios);///////Llama al metodo para guardar la informacion en el archivo json 
 	    }
 	
 	public static void RegistrarMascota(Scanner scanner, List<GrupoHRefugio> refugios, List<GrupoHMascota> mascotasDisponibles) {

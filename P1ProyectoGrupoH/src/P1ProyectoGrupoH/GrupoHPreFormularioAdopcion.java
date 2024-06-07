@@ -4,12 +4,15 @@ import java.util.Scanner;
 
 public class GrupoHPreFormularioAdopcion {
 
+	///////////Encapsulamiento
 	private String nombre;
     private String direccion;
     private String telefono;
     private String ocupacion;
     private boolean experienciaMascotas;
     private boolean hogarPropio;
+    
+    //////Constructor
 	public GrupoHPreFormularioAdopcion(String nombre, String direccion, String telefono, String ocupacion,
 			boolean experienciaMascotas, boolean hogarPropio) {
 		this.nombre = nombre;
@@ -19,6 +22,9 @@ public class GrupoHPreFormularioAdopcion {
 		this.experienciaMascotas = experienciaMascotas;
 		this.hogarPropio = hogarPropio;
 	}
+	
+	///Metodos Getters y Setters
+
 	public String getNombre() {
 		return nombre;
 	}

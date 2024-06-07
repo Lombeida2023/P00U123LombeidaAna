@@ -5,18 +5,21 @@ import java.util.List;
 import java.util.Scanner;
 
 public class GrupoHSeguimiento {
-
+//////////Atributos
 	private String adoptanteNombre;
 	private String adoptanteCedula;
 	private String mascotaNombre;
 	private List<String> reportes;
 
+	////////Constructor
 	public GrupoHSeguimiento(String adoptanteNombre, String adoptanteCedula, String mascotaNombre) {
 		this.adoptanteNombre = adoptanteNombre;
 		this.adoptanteCedula = adoptanteCedula;
 		this.mascotaNombre = mascotaNombre;
 		this.reportes = new ArrayList<>();
 	}
+	
+	////////////Metodos get 
 
 	public String getAdoptanteNombre() {
 		return adoptanteNombre;

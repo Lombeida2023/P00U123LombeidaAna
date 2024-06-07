@@ -97,6 +97,10 @@ public class GrupoHAdoptante extends GrupoHPlataformaApodcion {
             adoptantes[i].mostrarDatos();
             
         }
+        System.out.println("=============================================:");
+        System.out.println("GUARDAR INFORMACION DEL ADOPTANTE EN CSV:     ");
+        System.out.println("=============================================:");
+        Archivos.GenerarCsv(adoptantes);
     }
 
     // Método para validar cédula
@@ -136,7 +140,7 @@ public class GrupoHAdoptante extends GrupoHPlataformaApodcion {
             System.out.println("SELECCIONE EL NÚMERO DE LA MASCOTA QUE DESEA ADOPTAR:");
             while (!scanner.hasNextInt()) {
                 System.out.println("ERROR: DEBE INGRESAR UN NÚMERO.");
-                scanner.next(); // Consumir la entrada incorrecta
+                scanner.next(); // Consumir la entrada 
             }
             mascotaIndex = scanner.nextInt() - 1;
             scanner.nextLine(); // Limpiar el buffer
@@ -152,7 +156,7 @@ public class GrupoHAdoptante extends GrupoHPlataformaApodcion {
         scanner.nextLine();
 
         System.out.println("¿CONFIRMAR ADOPCIÓN DE " + mascotasDisponibles.get(mascotaIndex).getNombre() + "? (Sí/No):");
-        String confirmacion = scanner.nextLine(); // Cambio aquí
+        String confirmacion = scanner.nextLine();
 
         if (confirmacion.equalsIgnoreCase("Sí")) {
             System.out.println("MASCOTA ADOPTADA CORRECTAMENTE.");
